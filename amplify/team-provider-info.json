@@ -11,5 +11,18 @@
             "StackId": "arn:aws:cloudformation:us-east-1:074794648115:stack/amplify-awsgraphql-dev-191746/35c18a20-eac3-11ea-b15c-0e3e179d38e3",
             "AmplifyAppId": "dnuiov9wdeem"
         }
+    },
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awsgraphql-production-223138-authRole",
+            "UnauthRoleArn": "arn:aws:iam::074794648115:role/amplify-awsgraphql-production-223138-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::074794648115:role/amplify-awsgraphql-production-223138-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-awsgraphql-production-223138-deployment",
+            "UnauthRoleName": "amplify-awsgraphql-production-223138-unauthRole",
+            "StackName": "amplify-awsgraphql-production-223138",
+            "StackId": "arn:aws:cloudformation:us-east-1:074794648115:stack/amplify-awsgraphql-production-223138/4e93f4a0-eade-11ea-8f20-0af6b1cd0899",
+            "AmplifyAppId": "dnuiov9wdeem"
+        }
     }
 }

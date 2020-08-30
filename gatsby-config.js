@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -35,9 +37,9 @@ module.exports = {
       options: {
         typeName: `GOT`,
         fieldName: `got`,
-        url: `https://7hem674hxrd5dbmw2kl2f7ojta.appsync-api.us-east-1.amazonaws.com/graphql`,
+        url: process.env.GATSBY_GRAPHQL_ENDPOINT,
         headers: {
-          "x-api-key": `da2-2ez762gedne6fms76mf24qc4wq`,
+          "x-api-key": process.env.GATSBY_GRAPHQL_API_KEY,
         },
       },
     },
