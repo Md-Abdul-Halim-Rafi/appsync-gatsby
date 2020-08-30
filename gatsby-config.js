@@ -30,5 +30,16 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `GOT`,
+        fieldName: `got`,
+        url: `https://7hem674hxrd5dbmw2kl2f7ojta.appsync-api.us-east-1.amazonaws.com/graphql`,
+        headers: {
+          "x-api-key": `da2-2ez762gedne6fms76mf24qc4wq`,
+        },
+      },
+    },
   ],
 }
